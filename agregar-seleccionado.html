@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Seleccionado</title>
+    <link rel="stylesheet" href="static/css/estilos.css">
+</head>
+<body>
+    <h1>Agregar Seleccionado</h1>
+    <div class="contenedor-centrado">
+        <a href="listado-selecciones.html">Listado de Selección</a>
+    </div>
+    <form id="formulario-seleccionado" enctype="multipart/form-data">
+        <label for="codigo">Código:</label>
+        <input type="text" name="codigo" id="codigo" required><br>
+
+        <label for="nombre">País:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="bandera">Bandera:</label>
+        <input type="file"  id="bandera" name="bandera">
+        <br><br>
+        <button type="submit">Agregar Seleccionado</button>
+    </form>
+    <script src="js/alta-seleccionado.js"></script>
+</body>
+</html>
